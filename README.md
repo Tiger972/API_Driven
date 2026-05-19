@@ -25,7 +25,7 @@ localstack start -d
 localstack status services
 ```
 
-> 📸 **Capture 1 — LocalStack services disponibles** (`localstack status services` avec tous les ✔)
+<img width="1438" height="1350" alt="image" src="https://github.com/user-attachments/assets/bdfcbdc0-68c6-4aa9-ab24-0fd1e9291e36" />
 
 ### 2. Installer les dépendances
 
@@ -38,8 +38,6 @@ pip install boto3 awscli-local awscli
 ```bash
 python deploy.py
 ```
-
-> 📸 **Capture 2 — Résultat de `python deploy.py`** (Instance ID + API URL affichés)
 
 Ce script crée automatiquement :
 - Une instance EC2 (simulée)
@@ -64,7 +62,7 @@ print(r['Payload'].read().decode())
 "
 ```
 
-> 📸 **Capture 3 — Résultat des 3 actions : STOP / STATUS / START**
+<img width="1726" height="362" alt="image" src="https://github.com/user-attachments/assets/582d76e3-590d-4b91-b033-46752946df77" />
 
 ---
 
@@ -85,7 +83,7 @@ print(r['Payload'].read().decode())
 | stop   | `{"statusCode": 200, "body": "stopped i-xxx"}` |
 | start  | `{"statusCode": 200, "body": "started i-xxx"}` |
 
-> 📸 **Capture 4 — Port 4566 public dans l'onglet PORTS de Codespace**
+<img width="2122" height="68" alt="image" src="https://github.com/user-attachments/assets/17e39b96-b690-46c3-a37f-55c5caf3cfaa" />
 
 ---
 
