@@ -44,6 +44,11 @@ Ce script crée automatiquement :
 - Une fonction Lambda `ec2-controller`
 - Une API Gateway avec la route `/ec2`
 
+
+Vérification Instance EC2 : 
+
+<img width="1610" height="276" alt="image" src="https://github.com/user-attachments/assets/93171dd2-408b-47ad-82c7-0809ca4b2b0d" />
+
 ---
 
 ## Utilisation
